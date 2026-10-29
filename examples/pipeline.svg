@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 283" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" role="img" aria-label="Example pipeline">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#475569"/></marker></defs>
+  <rect x="172" y="10" width="578" height="230" rx="10" fill="#f6f7fb" stroke="#475569"/>
+  <text x="186" y="30" font-weight="700" fill="#1f2430">Cloud account</text>
+  <rect x="10" y="60" width="100" height="54" rx="8" fill="#fff7ed" stroke="#b45309"/>
+  <text x="60" y="82" text-anchor="middle" font-weight="700" fill="#1f2430">Uploads</text>
+  <text x="60" y="100" text-anchor="middle" fill="#6b7280">images, CSV</text>
+  <rect x="190" y="60" width="128" height="54" rx="8" fill="#fff" stroke="#475569"/>
+  <text x="254" y="82" text-anchor="middle" font-weight="700" fill="#1f2430">Web server</text>
+  <text x="254" y="100" text-anchor="middle" fill="#6b7280">2 replicas</text>
+  <rect x="380" y="50" width="94" height="54" rx="8" fill="#fff7ed" stroke="#b45309"/>
+  <text x="427" y="72" text-anchor="middle" font-weight="700" fill="#1f2430">Job queue</text>
+  <text x="427" y="90" text-anchor="middle" fill="#6b7280">3 partitions</text>
+  <rect x="580" y="44" width="116" height="70" rx="8" fill="#eef0fd" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="638" y="66" text-anchor="middle" font-weight="700" fill="#4f46e5">Image worker</text>
+  <text x="638" y="84" text-anchor="middle" fill="#6b7280">resize and crop</text>
+  <text x="638" y="100" text-anchor="middle" fill="#6b7280">1 CPU, 1 GiB</text>
+  <rect x="380" y="160" width="128" height="54" rx="8" fill="#e8f5f6" stroke="#0e7c86"/>
+  <text x="444" y="182" text-anchor="middle" font-weight="700" fill="#1f2430">Metrics</text>
+  <text x="444" y="200" text-anchor="middle" fill="#6b7280">one row a second</text>
+  <path d="M110 87 H188" stroke="#475569" marker-end="url(#a)"/>
+  <text x="149" y="79" text-anchor="middle" fill="#6b7280">posts</text>
+  <path d="M318 82 H378" stroke="#475569" marker-end="url(#a)"/>
+  <text x="348" y="74" text-anchor="middle" fill="#6b7280">enqueue</text>
+  <path d="M474 77 H578" stroke="#475569" marker-end="url(#a)"/>
+  <text x="526" y="69" text-anchor="middle" fill="#6b7280">take</text>
+  <path d="M427 160 V106" stroke="#0e7c86" stroke-dasharray="4 3" marker-end="url(#a)"/>
+  <text x="435" y="137" fill="#0e7c86">queue depth</text>
+  <path d="M508 187 H638 V116" stroke="#0e7c86" stroke-dasharray="4 3" fill="none" marker-end="url(#a)"/>
+  <text x="573" y="179" text-anchor="middle" fill="#0e7c86">CPU, memory</text>
+  <text x="10" y="270" fill="#6b7280">Boxes without a width or height are sized to their text.</text>
+</svg>

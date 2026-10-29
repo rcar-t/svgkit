@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" role="img" aria-label="fixture">
+  <!-- known overlap: two bold labels 40 px apart, each about 70 px wide -->
+  <text x="100" y="40" text-anchor="middle" font-weight="700">load starts</text>
+  <text x="140" y="40" text-anchor="middle" font-weight="700">first reply</text>
+</svg>

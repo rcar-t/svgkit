@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 189" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" role="img" aria-label="Load test timeline">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#475569"/></marker></defs>
+  <text x="10" y="22" fill="#6b7280">Input: requests at a steady rate for 15 minutes. Repeat: 3 runs. Then the results are compared.</text>
+  <path d="M190 112 V62 H620 V112" stroke="#b45309" stroke-width="2" fill="#fff7ed"/>
+  <text x="405" y="90" text-anchor="middle" fill="#b45309">steady request rate</text>
+  <path d="M60 140 H740" stroke="#475569" marker-end="url(#a)"/>
+  <text x="740" y="156" text-anchor="end" fill="#6b7280">time</text>
+  <path d="M80 66 V140" stroke="#1f2430" stroke-dasharray="3 3"/>
+  <text x="80" y="60" text-anchor="middle" font-weight="700" fill="#1f2430">start</text>
+  <path d="M140 66 V140" stroke="#1f2430" stroke-dasharray="3 3"/>
+  <text x="140" y="60" text-anchor="middle" font-weight="700" fill="#1f2430">server ready</text>
+  <path d="M190 50 V140" stroke="#1f2430" stroke-dasharray="3 3"/>
+  <text x="190" y="44" text-anchor="middle" font-weight="700" fill="#1f2430">load starts</text>
+  <rect x="190" y="116" width="140" height="22" fill="#f6f7fb" stroke="#9ca3af"/>
+  <text x="260" y="131" text-anchor="middle" font-weight="700" fill="#9ca3af">warm-up 5 min</text>
+  <rect x="330" y="116" width="290" height="22" fill="#e8f5f6" stroke="#0e7c86"/>
+  <text x="475" y="131" text-anchor="middle" font-weight="700" fill="#0e7c86">measured: 10 min</text>
+  <path d="M620 66 V140" stroke="#1f2430" stroke-dasharray="3 3"/>
+  <text x="620" y="60" text-anchor="middle" font-weight="700" fill="#1f2430">load stops</text>
+  <text x="630" y="100" fill="#6b7280">drain, then compare</text>
+  <text x="60" y="176" fill="#6b7280">Rates: 500 requests a second on the API, 20 a second on uploads.</text>
+</svg>
